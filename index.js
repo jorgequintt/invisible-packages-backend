@@ -12,3 +12,4 @@ db.on("error", (err) => console.log("mongoose error:", err));
 db.once("open", () => {
 	console.log("mongoose connected to db");
 });
+
