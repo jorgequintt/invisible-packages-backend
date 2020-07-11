@@ -3,7 +3,6 @@ const mongoose = require("mongoose");
 // User Schema set up
 const userSchema = new mongoose.Schema({
 	username: String,
-	email: String,
 	location: {
 		type: {
 			type: Point,
