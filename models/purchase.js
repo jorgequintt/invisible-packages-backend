@@ -29,6 +29,7 @@ const purchaseSchema = mongoose.Schema({
 			required: true,
 		},
 	},
+	state: String
 });
 
 module.exports = mongoose.model("Purchase", purchaseSchema);
